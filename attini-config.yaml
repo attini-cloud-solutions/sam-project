@@ -1,0 +1,10 @@
+distributionName: sam-project #Rename to something meaningful and unique
+initDeployConfig:
+  forceUpdate: true
+  template: deployment-plan.yaml
+  stackName: ${environment}-${distributionName}-deployment-plan
+
+package:
+  prePackage:
+    commands:
+      - attini configure set-dist-id --random
