@@ -1,6 +1,5 @@
-distributionName: sam-project #Rename to something meaningful and unique
+distributionName: sam-project #Rename to something meaningful and unique within your organisation
 initDeployConfig:
-  forceUpdate: true
   template: deployment-plan.yaml
   stackName: ${environment}-${distributionName}-deployment-plan
 
