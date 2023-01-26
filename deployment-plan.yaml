@@ -9,7 +9,7 @@ Parameters:
 
 Resources:
 
-  EchoLambdaDeploymentPlan:
+  SamAppDeploymentPlan:
     Type: Attini::Deploy::DeploymentPlan
     Properties:
       DeploymentPlan:
